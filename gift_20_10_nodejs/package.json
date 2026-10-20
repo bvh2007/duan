@@ -1,0 +1,9 @@
+{
+  "name": "gift-20-10",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website tang qua 20/10 voi gau bong",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.21.2" },
+  "engines": { "node": ">=18" }
+}

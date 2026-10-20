@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffe8ef" />
+    <title>Món quà 20/10 dành cho em 🧸</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="floating" id="floating" aria-hidden="true"></div>
+    <main class="card">
+      <div class="top-bears" aria-hidden="true">
+        <span>🧸</span><span>🎀</span><span>🧸</span>
+      </div>
+      <p class="eyebrow">A LITTLE SURPRISE · 20/10</p>
+      <!-- THAY TÊN BẠN GÁI Ở DÒNG DƯỚI -->
+      <h1>Gửi <span id="girlName">cô gái đáng yêu</span> 💗</h1>
+      <p class="intro">
+        Có một món quà nhỏ đang chờ em mở đó. Cẩn thận: độ dễ thương hơi vượt
+        ngưỡng cho phép! ✨
+      </p>
+
+      <div class="bear-scene" aria-label="Hai chú gấu bông dễ thương">
+        <div class="bear bear-left" aria-hidden="true">
+          <i class="ear ear-l"></i><i class="ear ear-r"></i
+          ><i class="face"
+            ><b class="eye eye-l"></b><b class="eye eye-r"></b
+            ><b class="muzzle">ᴥ</b><b class="blush blush-l"></b
+            ><b class="blush blush-r"></b></i
+          ><i class="belly"></i><i class="paw paw-l"></i
+          ><i class="paw paw-r"></i><span class="bow">🎀</span>
+        </div>
+        <div class="bear bear-right" aria-hidden="true">
+          <i class="ear ear-l"></i><i class="ear ear-r"></i
+          ><i class="face"
+            ><b class="eye eye-l"></b><b class="eye eye-r"></b
+            ><b class="muzzle">ᴥ</b><b class="blush blush-l"></b
+            ><b class="blush blush-r"></b></i
+          ><i class="belly"></i><i class="paw paw-l"></i
+          ><i class="paw paw-r"></i><span class="heart-hold">💗</span>
+        </div>
+      </div>
+
+      <button
+        class="gift"
+        id="giftButton"
+        type="button"
+        aria-label="Mở hộp quà"
+      >
+        <span class="gift-lid"></span><span class="gift-box"></span
+        ><span class="gift-ribbon"></span>
+      </button>
+      <p class="gift-hint" id="giftHint">👆 Bấm vào hộp quà để mở nhé!</p>
+
+      <section class="surprise" id="surprise" hidden>
+        <div class="flower">💐</div>
+        <h2>Chúc mừng ngày 20/10! 🌷</h2>
+        <div class="photo-frame">
+          <!-- THAY ẢNH: đặt ảnh trong thư mục images, rồi đổi src bên dưới -->
+          <img
+            id="memoryPhoto"
+            src="images/anh1.jpg"
+            alt="Ảnh kỷ niệm dễ thương"
+          />
+          <span class="photo-sticker" aria-hidden="true">🧸💖</span>
+        </div>
+        <p class="message">
+          Chúc em luôn vui vẻ, thật nhiều may mắn và mỗi ngày đều có thêm một lý
+          do để mỉm cười. Anh chúc em ít bug, nhiều feature đáng yêu và luôn
+          được yêu thương! 💕
+        </p>
+        <button class="wish-button" id="wishButton" type="button">
+          💌 Bấm để xem bí mật
+        </button>
+        <p class="random-wish" id="randomWish" aria-live="polite">
+          Một lời chúc bí mật đang đợi em...
+        </p>
+        <button class="again" id="againButton" type="button">
+          🎁 Mở quà lần nữa
+        </button>
+      </section>
+      <footer>
+        Made with <span>♥</span> and a little bit of JavaScript 🧸
+      </footer>
+    </main>
+  </body>
+</html>
